@@ -28,5 +28,6 @@ resource "aws_s3_bucket" "learning_bucket" {
 
   tags = {
     Name = "TF Advanced Lab 1 Bucket"
+    Dept = "Course"
   }
 }
