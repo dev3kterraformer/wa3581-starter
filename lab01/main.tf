@@ -15,7 +15,7 @@ terraform {
 
 provider "aws" {
   region = "us-west-2" // Ensure correct region
-}
+} 
 
 resource "random_string" "suffix" {
   length  = 8
