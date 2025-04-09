@@ -40,6 +40,7 @@ module "dev_queue" {
     Environment = var.environment_tag # From workspace variable
     GitOpsManaged   = "true" # <<< Added Tag
     Purpose         = "GitOps Demo" # <<< Added Tag
+    Dept            = "Engineering" # One more added tag
   }
 }
 
