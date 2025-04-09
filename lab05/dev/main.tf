@@ -38,6 +38,8 @@ module "dev_queue" {
   tags = {
     Project     = "Advanced TF Course"
     Environment = var.environment_tag # From workspace variable
+    GitOpsManaged   = "true" # <<< Added Tag
+    Purpose         = "GitOps Demo" # <<< Added Tag
   }
 }
 
