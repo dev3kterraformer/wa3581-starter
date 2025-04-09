@@ -32,7 +32,7 @@ jobs:
 
       - name: Terraform Init (for Root Validate)
         working-directory: ./lab04 # Run from lab04 dir
-        run: terraform init # Needed for validate
+        run: terraform init # Needed for validate at lab04 level
 
       - name: Terraform Validate (Root Harness)
         working-directory: ./lab04 # Run from lab04 dir
